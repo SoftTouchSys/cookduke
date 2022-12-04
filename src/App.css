@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  /* font-size:50px;  */
+}
+
+a {
+  text-decoration: none !important;
+  cursor: pointer;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.Account-Type {
+  width: 230px;
+  width: 230px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 46px;
+  margin: 0 40px;
+  border-radius: 12px;
+  color: #757575;
+  box-shadow: 0 20px 27px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fffefc;
+  text-align: center;
+  cursor: pointer;
+  font-size: 70px;
+}
+
+input[type='checkbox'] {
+  accent-color: #63a44c;
+}
+
+.Account-Type.active {
+  background-color: #63a44c;
+  color: white
+}
+
+.Account-Type:hover {
+  background-color: #63a44c;
+  color: white
+}
+
+.select_account {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.select_account_boxes {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.select-box-arrow {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+
+}
+
+.signup_container1,
+.signup_container2,
+.signup_container3 {
+  display: none;
+}
+
+.ppic-input {
+  display: none;
+
+}
+
+@media screen and (max-width:950px) {
+  .Account-Type {
+    width: 200px;
+    height: 200px;
+    margin: 0 20px;
+  }
+
+}
+
+@media screen and (max-width:700px) {
+  .Account-Type {
+    margin: 10px auto;
+  }
+
+  .select_account_boxes {
+    flex-direction: column;
+  }
+
+  .select_account {
+    height: 800px;
+  }
+
+}
+
+/* ------------------------------------------------- */
+.chefs_container{
+  width:100%;
+  height:max-content;
+  background:#fff3e0;
+  border-radius:20px;
+  display:flex;
+  /* margin-top: 50px; */
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+}
+.chefs_container h2{
+  align-self: start;
+  margin: 40px 0 20px 20px;
+  color:green;
+
+}
+.chefprofile_input{
+  width:97%;
+  height: 5vh;
+  display:flex;
+  margin-top:20px;
+  align-items: center;
+  justify-content:space-evenly;
+  background:white;
+  border-radius:10px;
+}
+.chefprofile_input input{
+  width:95%;
+  height: 100%;
+  font-family: Roboto;
+  font-size: 14px;
+  outline:none;
+  text-align: left;
+  border:none;
+  color: #9e9e9e;
+}
+.chefprofile_icon{
+  width: 20px;
+  height: 20px;
+  flex-grow: 0;
+  color: #9e9e9e;
+}
+.chefprofile_main{
+  width:100%;
+  height:max-content;
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:flex-start;
+}
+.chefprofile_main_chef{
+  width:249px!important;
+  height:40vh;
+  margin: 16px;
+  border-radius:20px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chefprofile_main_chef div{
+  width:90%;
+  height:60%;
+  border-radius:15px 15px 0 0;
+  margin:12px auto;
+  overflow: hidden;
+}
+.chefprofile_main_chef div img{
+  width:100%;
+  border-radius:15px 15px 0 0;
+  height:100%;
+}
+.chefprofile_main_chef h6{
+  width:225px !important;
+  height:max-content;
+  font-size:1.2em;
+  margin:0 auto 10px auto;
+  color:rgb(68, 64, 64)!important;
+}
+.chefprofile_main_chef h6 a{
+color:black!important;
+}
+.btn-order{
+  height: max-content;
+  border-radius:5px;
+  border:2px solid green;
+  color:green;
+  font-size:1em;
+  padding: 5px 70px;
+  background:transparent;
+}
+/* -----------------------notifications------------------------- */
+.notifications {
+  width: 300px;
+  height: 0px;
+  position: absolute;
+  top: 120%;
+  right: 0;
+  border-radius: 10px;
+  padding: 10px 5px 10px 10px;
+  background-color: #fff3e0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index:111111!important;
+}
+
+.notifications h2 {
+  font-size: 14px!important;
+  color: #999;
+
+}
+
+.notifications h2 span {
+  color: #63a44c
+}
+
+.notifications-item {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  padding: 5px 9px;
+  margin-top:8px;
+  border-radius: 8px;
+  cursor: pointer
+}
+
+.notifications-item:hover {
+  background-color: white;
+}
+
+.notifications-item img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-right: 9px;
+  border-radius: 50%;
+  margin-top: 2px
+}
+
+.notifications-item .text h4 {
+  color: #63a44c;
+  font-size: .9em;
+  /* margin-top: 3px */
+}
+
+.notifications-item .text p {
+  color: #aaa;
+  font-size: 12px;
+  margin:0;
+}
+.notification_box{
+  height:0;
+  display:none;
+}
+._notification_box{
+  height:max-content;
+  max-height:40vh;
+  display:block;
+  overflow:auto;
+  z-index:2;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: green;
+  border-radius: 10px;
+  width: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: green;
+
+}
+
+.cart_box{
+  z-index: 3;
+}
+/* ----------- */
+
+.saving span {
+  animation-name: blink;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  font-size: 50px !important;
+}
+
+.saving span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.saving span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.saving span:nth-child(3) {
+  animation-delay: 0.6s;
+}
+@keyframes blink {
+  0% {
+    opacity: 0.2;
+  }
+  20% {
+    opacity: 1;
+    font-size: 60px!important;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}

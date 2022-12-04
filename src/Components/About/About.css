@@ -1,0 +1,23 @@
+#about_banner{
+    width:100vw;
+    background-image: url("https://ak.picdn.net/shutterstock/videos/1041856027/thumb/1.jpg?ip=x480");
+    background-size: cover;
+    height:95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about_banner h1{
+    font-size: 90px;
+    color: white;
+    font-weight: 600;
+}
+.about .content{
+    background-color: #f5f5f5;
+    padding:40px;
+    box-sizing: border-box;
+    margin:70px;
+    border-radius: 20px;;
+    text-align: center;
+    font-size: 1.2em;
+}

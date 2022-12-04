@@ -1,0 +1,181 @@
+.roles_main{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: flex-end;
+}
+.roles_main_scroll{
+    width:82%;
+    height: max-content;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #fff3e0;   
+    margin-top: 15vh;
+    margin-left: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* menu tabs */
+
+
+.menuTabs{
+    width: 100%;
+    height: max-content;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+.lower{
+    border: none;
+}
+.lower_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}    
+.lower_header div p{
+    color: #999;
+    font-size: .9em;
+}    
+.lower_header button{
+    padding: 7px 15px;
+    width: max-content;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(105deg, #63a44c -43%, #3f712d 57%);
+    color: white;
+}
+.status_red{
+    color: red;
+}
+.status_green{
+    color: green;
+}
+
+@media screen and (max-width:950px) {
+    .roles_main_scroll{
+        width:95%;
+        margin: 25vh auto 10px auto;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .roles_main_scroll{
+        width:98%;
+        padding: 10px;
+        margin: 25vh auto 10px auto;
+    }
+    /* Table tr th{
+        font-size: .8em;
+    }
+    Table tr td{
+        font-size: .8em;
+    } */
+    .lower_header div p{
+        font-size: .7em;
+    }    
+    .lower_header div h4{
+        font-size: 1.2em;
+    }
+    .lower_header button{
+        padding: 7px 12px;
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width:500px) {
+    /* Table tr th{
+        font-size: .7em;
+    }
+    Table tr td{
+        font-size: .7em;
+    } */
+    .lower_header div p{
+        font-size: .6em;
+    }    
+    .lower_header div h4{
+        font-size: 1.1em;
+    }
+    .lower_header button{
+        padding: 7px 10px;
+        font-size: .7em;
+    }
+    .menuTabs{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:436px) {
+    .roles_main_scroll{
+        width:100%;
+        border-radius: 0px; 
+        padding: 5px;
+        margin: 25vh auto 10px auto;
+    }
+    .menuTabs{
+        padding: 5px;
+    }
+    /* Table tr th{
+        font-size: .6em;
+    }
+    Table tr td{
+        font-size: .6em;
+    } */
+    .lower_header div p{
+        font-size: .5em;
+    }    
+    .lower_header div h4{
+        font-size: 1em;
+    }
+    .lower_header button{
+        padding: 7px 12px;
+        font-size: .6em;
+    }
+}
+
+@media screen and (max-width:370px) {
+    /* Table tr th{
+        font-size: .5em;
+    }
+    Table tr td{
+        font-size: .5em;
+    } */
+    .lower_header div h4{
+        font-size: .9em;
+    }
+    .lower_header button{
+        padding: 7px 12px;
+    }
+}
+
+@media screen and (max-width:338px) {
+    /* Table tr th{
+        font-size: .48em;
+    }
+    Table tr td{
+        font-size: .48em;
+    } */
+    .lower_header div h4{
+        font-size: .88em;
+    }
+    .lower_header button{
+        padding: 7px 12px;
+    }
+}
+
+@media screen and (max-width:319px) {
+    /* Table tr th{
+        font-size: .4em;
+    }
+    Table tr td{
+        font-size: .4em;
+    } */
+    .lower_header div h4{
+        font-size: .8em;
+    }
+    .lower_header button{
+        padding: 7px 12px;
+    }
+}

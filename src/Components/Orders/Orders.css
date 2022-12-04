@@ -1,0 +1,115 @@
+.orders_main{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: flex-end;
+}
+.orders_main_scroll{
+    width:82%;
+    height: max-content;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #fff3e0;   
+    margin-top: 15vh;
+    margin-left: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.orders_mark_icons {
+    display: flex;
+}
+.orders_mark_icons div{
+    width: max-content;
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 10px;
+    color: white;
+    background-color: green; 
+}
+.orders_mark_icons div:nth-child(2){
+    background-color: red; 
+}
+.orders_main_heading{
+    color: green;
+    margin-bottom: 25px;
+}
+
+/* menu tabs */
+
+
+
+@media screen and (max-width:950px) {
+    .orders_main_scroll{
+        width:95%;
+        margin: 25vh auto 10px auto;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .orders_main_scroll{
+        width:98%;
+        padding: 10px;
+        margin: 25vh auto 10px auto;
+    }
+    /* Table tr th{
+        font-size: .8em;
+    }
+    Table tr td{
+        font-size: .8em;
+    } */
+}
+
+@media screen and (max-width:500px) {
+    /* Table tr th{
+        font-size: .7em;
+    }
+    Table tr td{
+        font-size: .7em;
+    } */
+}
+
+@media screen and (max-width:436px) {
+    .orders_main_scroll{
+        width:100%;
+        border-radius: 0px; 
+        padding: 5px;
+        margin: 25vh auto 10px auto;
+    }
+    /* Table tr th{
+        font-size: .6em;
+    }
+    Table tr td{
+        font-size: .6em;
+    } */
+
+}
+
+@media screen and (max-width:370px) {
+    /* Table tr th{
+        font-size: .5em;
+    }
+    Table tr td{
+        font-size: .5em;
+    } */
+}
+
+@media screen and (max-width:338px) {
+    /* Table tr th{
+        font-size: .48em;
+    }
+    Table tr td{
+        font-size: .48em;
+    } */
+}
+
+@media screen and (max-width:319px) {
+    /* Table tr th{
+        font-size: .4em;
+    }
+    Table tr td{
+        font-size: .4em;
+    } */
+}
